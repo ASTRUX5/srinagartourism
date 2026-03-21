@@ -42,7 +42,7 @@ var IMAGES = {
   card_honeymoon:          'https://images.unsplash.com/photo-1548013146-72479768bada?w=600&q=80&auto=format&fit=crop',
   card_kashmir_valley:     'https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?w=600&q=80&auto=format&fit=crop',
   card_jammu_kashmir:      'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600&q=80&auto=format&fit=crop',
-  card_grand_kashmir:      'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600&q=80&auto=format&fit=crop',
+  card_grand_kashmir:      'https://images.pexels.com/photos/2445788/pexels-photo-2445788.jpeg?w=1400⁠',
   card_amarnath:           'https://images.pexels.com/photos/5102016/pexels-photo-5102016.jpeg?w=1400⁠',
 
   // ── LADAKH LISTING PAGE — CARD IMAGES ───────────────────────────
