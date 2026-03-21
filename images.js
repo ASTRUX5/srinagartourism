@@ -24,7 +24,7 @@ const IMAGE_REFERENCE = {
 
   // ── FEATURED PACKAGE CARDS (home) ─────────────────────────────────
   PKG_SRINAGAR_CARD:
-    'https://images.unsplash.com/photo-1571536802807-30451e3955d8?w=600&q=80&auto=format&fit=crop',
+    'https://images.pexels.com/photos/6739193/pexels-photo-6739193.jpeg?w=1400&auto=compress&cs=tinysrgb',
   PKG_KASHMIR_SPECIAL_CARD:
     'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80&auto=format&fit=crop',
   PKG_HONEYMOON_CARD:
