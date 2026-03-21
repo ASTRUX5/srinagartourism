@@ -19,8 +19,8 @@ var IMAGES = {
   hero_pahalgam:           'https://images.pexels.com/photos/186979/pexels-photo-186979.jpeg?w=1400⁠',
   hero_sonamarg_gulmarg:   'https://images.pexels.com/photos/2862204/pexels-photo-2862204.jpeg?w=1400⁠',
   hero_kashmir_special:    'https://images.pexels.com/photos/15793177/pexels-photo-15793177.jpeg?w=1400⁠',
-  hero_kashmir_holiday:    'https://images.unsplash.com/photo-1518560636955-e0b3aca3e6b9?w=1400&q=85&auto=format&fit=crop',
-  hero_kashmir_pkg_tour:   'https://images.unsplash.com/photo-1592425989956-3db7cd40ade2?w=1400&q=85&auto=format&fit=crop',
+  hero_kashmir_holiday:    'https://images.pexels.com/photos/2445788/pexels-photo-2445788.jpeg?w=1400⁠',
+  hero_kashmir_pkg_tour:   'https://images.pexels.com/photos/186985/pexels-photo-186985.jpeg?w=1400⁠',
   hero_honeymoon:          'https://images.pexels.com/photos/31432750/pexels-photo-31432750.jpeg?w=1400⁠',
   hero_kashmir_valley:     'https://images.pexels.com/photos/2907578/pexels-photo-2907578.jpeg?w=1400⁠',
   hero_jammu_kashmir:      'https://images.pexels.com/photos/6738438/pexels-photo-6738438.jpeg?w=1400⁠',
@@ -29,36 +29,36 @@ var IMAGES = {
 
   // ── LADAKH PACKAGE PAGE HEROES ──────────────────────────────────
   hero_leh_ladakh:         'https://images.pexels.com/photos/951927/pexels-photo-951927.jpeg?w=1400⁠',
-  hero_enchanting_ladakh:  'https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=1400&q=85&auto=format&fit=crop',
-  hero_kashmir_ladakh:     'https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=1400&q=85&auto=format&fit=crop',
+  hero_enchanting_ladakh:  'https://images.pexels.com/photos/6619116/pexels-photo-6619116.jpeg?w=1400⁠',
+  hero_kashmir_ladakh:     'https://images.pexels.com/photos/5015219/pexels-photo-5015219.jpeg?w=1400⁠',
 
   // ── KASHMIR PACKAGES LISTING PAGE — CARD IMAGES ─────────────────
   card_srinagar:           'https://images.pexels.com/photos/7743323/pexels-photo-7743323.jpeg',
   card_pahalgam:           'https://images.pexels.com/photos/4904290/pexels-photo-4904290.jpeg?w=1400',
   card_sonamarg_gulmarg:   'https://images.pexels.com/photos/16526498/pexels-photo-16526498.jpeg?w=1400⁠',
   card_kashmir_special:    'https://images.pexels.com/photos/2439787/pexels-photo-2439787.jpeg?w=1400⁠',
-  card_kashmir_holiday:    'https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=600&q=80&auto=format&fit=crop',
-  card_kashmir_pkg_tour:   'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80&auto=format&fit=crop',
+  card_kashmir_holiday:    'https://images.pexels.com/photos/6487375/pexels-photo-6487375.jpeg?w=1400⁠',
+  card_kashmir_pkg_tour:   'https://images.pexels.com/photos/2445788/pexels-photo-2445788.jpeg?w=1400⁠',
   card_honeymoon:          'https://images.pexels.com/photos/33466692/pexels-photo-33466692.jpeg?w=1400⁠',
-  card_kashmir_valley:     'https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?w=600&q=80&auto=format&fit=crop',
+  card_kashmir_valley:     'https://images.pexels.com/photos/5637788/pexels-photo-5637788.jpeg?w=1400⁠',
   card_jammu_kashmir:      'https://images.pexels.com/photos/5097161/pexels-photo-5097161.jpeg?w=1400⁠',
   card_grand_kashmir:      'https://images.pexels.com/photos/2445788/pexels-photo-2445788.jpeg?w=1400⁠',
   card_amarnath:           'https://images.pexels.com/photos/5102016/pexels-photo-5102016.jpeg?w=1400⁠',
 
   // ── LADAKH LISTING PAGE — CARD IMAGES ───────────────────────────
   card_leh_ladakh:         'https://images.pexels.com/photos/5014919/pexels-photo-5014919.jpeg?w=1400⁠',
-  card_enchanting_ladakh:  'https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=600&q=80&auto=format&fit=crop',
-  card_kashmir_ladakh:     'https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=600&q=80&auto=format&fit=crop',
+  card_enchanting_ladakh:  'https://images.pexels.com/photos/5014912/pexels-photo-5014912.jpeg?w=1400⁠',
+  card_kashmir_ladakh:     'https://images.pexels.com/photos/5015050/pexels-photo-5015050.jpeg?w=1400',
 
   // ── HOMEPAGE FEATURED CARDS ──────────────────────────────────────
   home_card_srinagar:      'https://images.pexels.com/photos/7743323/pexels-photo-7743323.jpeg',
   home_card_kashmir_special:'https://images.pexels.com/photos/9448812/pexels-photo-9448812.jpeg?w=1400⁠',
-  home_card_honeymoon:     'https://images.unsplash.com/photo-1548013146-72479768bada?w=600&q=80&auto=format&fit=crop',
+  home_card_honeymoon:     'https://images.pexels.com/photos/7112195/pexels-photo-7112195.jpeg?w=1400⁠',
   home_card_ladakh:        'https://images.pexels.com/photos/2333611/pexels-photo-2333611.jpeg?w=1400⁠',
 
   // ── DESTINATION PAGE HEROES ──────────────────────────────────────
   hero_dest_srinagar:      'https://images.unsplash.com/photo-1586375300773-8384e3e4916f?w=1400&q=85&auto=format&fit=crop',
-  hero_dest_gulmarg:       'https://images.unsplash.com/photo-1518560636955-e0b3aca3e6b9?w=1400&q=85&auto=format&fit=crop',
+  hero_dest_gulmarg:       'https://images.pexels.com/photos/6262925/pexels-photo-6262925.jpeg?w=1400⁠',
   hero_dest_pahalgam:      'https://images.pexels.com/photos/12072458/pexels-photo-12072458.jpeg?w=1400',
   hero_dest_sonamarg:      'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1400&q=85&auto=format&fit=crop',
   hero_dest_doodhpathri:   'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1400&q=85&auto=format&fit=crop',
