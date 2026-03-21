@@ -18,7 +18,7 @@ var IMAGES = {
   hero_srinagar:           'https://images.pexels.com/photos/7743323/pexels-photo-7743323.jpeg',
   hero_pahalgam:           'https://images.pexels.com/photos/186979/pexels-photo-186979.jpeg?w=1400⁠',
   hero_sonamarg_gulmarg:   'https://images.pexels.com/photos/2862204/pexels-photo-2862204.jpeg?w=1400⁠',
-  hero_kashmir_special:    'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1400&q=85&auto=format&fit=crop',
+  hero_kashmir_special:    'https://images.pexels.com/photos/15793177/pexels-photo-15793177.jpeg?w=1400⁠',
   hero_kashmir_holiday:    'https://images.unsplash.com/photo-1518560636955-e0b3aca3e6b9?w=1400&q=85&auto=format&fit=crop',
   hero_kashmir_pkg_tour:   'https://images.unsplash.com/photo-1592425989956-3db7cd40ade2?w=1400&q=85&auto=format&fit=crop',
   hero_honeymoon:          'https://images.unsplash.com/photo-1548013146-72479768bada?w=1400&q=85&auto=format&fit=crop',
