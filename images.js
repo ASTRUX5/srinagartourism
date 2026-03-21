@@ -16,7 +16,7 @@ var IMAGES = {
 
   // ── KASHMIR PACKAGE PAGE HEROES (full-width top image) ──────────
   hero_srinagar:           'https://images.pexels.com/photos/7743323/pexels-photo-7743323.jpeg',
-  hero_pahalgam:           'https://images.pexels.com/photos/6739193/pexels-photo-6739193.jpeg?w=1400',
+  hero_pahalgam:           'https://images.pexels.com/photos/186979/pexels-photo-186979.jpeg?w=1400⁠',
   hero_sonamarg_gulmarg:   'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1400&q=85&auto=format&fit=crop',
   hero_kashmir_special:    'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1400&q=85&auto=format&fit=crop',
   hero_kashmir_holiday:    'https://images.unsplash.com/photo-1518560636955-e0b3aca3e6b9?w=1400&q=85&auto=format&fit=crop',
