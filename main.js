@@ -311,5 +311,15 @@ function toggleMobSub(el) {
   var arrow = el.querySelector('.ml-arrow');
   var isOpen = sub.classList.contains('open');
   sub.classList.toggle('open', !isOpen);
-  if (arrow) arrow.style.transform = isOpen ? '' : 'rotate(180deg)';
+  if (arrow) arrow.classList.toggle('rotated', !isOpen);
 }
+
+// Close mobile menu when clicking the background (outside the content area)
+document.addEventListener('DOMContentLoaded', function() {
+  var mob = document.getElementById('mob');
+  if (!mob) return;
+  mob.addEventListener('click', function(e) {
+    // Only close if click target is the mob container itself, not its children
+    if (e.target === mob) closeMob();
+  });
+});
