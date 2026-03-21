@@ -22,10 +22,10 @@ var IMAGES = {
   hero_kashmir_holiday:    'https://images.unsplash.com/photo-1518560636955-e0b3aca3e6b9?w=1400&q=85&auto=format&fit=crop',
   hero_kashmir_pkg_tour:   'https://images.unsplash.com/photo-1592425989956-3db7cd40ade2?w=1400&q=85&auto=format&fit=crop',
   hero_honeymoon:          'https://images.unsplash.com/photo-1548013146-72479768bada?w=1400&q=85&auto=format&fit=crop',
-  hero_kashmir_valley:     'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1400&q=85&auto=format&fit=crop',
+  hero_kashmir_valley:     'https://images.pexels.com/photos/2907578/pexels-photo-2907578.jpeg?w=1400⁠',
   hero_jammu_kashmir:      'https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?w=1400&q=85&auto=format&fit=crop',
-  hero_grand_kashmir:      'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1400&q=85&auto=format&fit=crop',
-  hero_amarnath:           'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=1400&q=85&auto=format&fit=crop',
+  hero_grand_kashmir:      'https://images.pexels.com/photos/848594/pexels-photo-848594.jpeg?w=1400⁠',
+  hero_amarnath:           'https://images.pexels.com/photos/939714/pexels-photo-939714.jpeg?w=1400⁠',
 
   // ── LADAKH PACKAGE PAGE HEROES ──────────────────────────────────
   hero_leh_ladakh:         'https://images.unsplash.com/photo-1593951316498-f9f3cde60dd0?w=1400&q=85&auto=format&fit=crop',
