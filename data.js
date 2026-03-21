@@ -31,7 +31,7 @@ const DEST_DATA = {
   srinagar: {
     title: 'Dal Lake & Srinagar',
     tag: "Kashmir's Summer Capital",
-    img: 'https://images.unsplash.com/photo-1586375300773-8384e3e4916f?w=1400&q=85&auto=format&fit=crop',
+    img: 'https://images.pexels.com/photos/7743328/pexels-photo-7743328.jpeg?w=1400',
     about: [
       'Srinagar is the summer capital of Jammu and Kashmir, sitting on the banks of the Jhelum River at 1,585 metres. At its heart is Dal Lake — one of the most iconic bodies of water in India. The city blends centuries-old wooden architecture, Mughal gardens, and some of the most peaceful waterscapes you will find anywhere in the subcontinent.',
       'Dal Lake comes alive every morning before most tourists are awake. Vegetable vendors paddle wooden boats from garden to garden, flower sellers drift through narrow channels, and Shikara rides begin as the mist clears. The floating gardens grow tomatoes and cucumbers in a system that has worked for centuries. A Shikara ride at sunrise is the single best way to experience the city.',
@@ -50,7 +50,7 @@ const DEST_DATA = {
   gulmarg: {
     title: 'Gulmarg',
     tag: 'Meadow of Flowers - 2,650m',
-    img: 'https://images.unsplash.com/photo-1518560636955-e0b3aca3e6b9?w=1400&q=85&auto=format&fit=crop',
+    img: 'https://images.pexels.com/photos/36627783/pexels-photo-36627783.jpeg?w=1400',
     about: [
       'Gulmarg sits 50 km west of Srinagar at 2,650 metres. The name means Meadow of Flowers in Persian and it earns that name every summer when wildflowers blanket the slopes. In winter the same meadow is buried under metres of snow and draws India\'s best skiers along with thousands of first-timers from across the country.',
       'The Gulmarg Gondola is one of the highest cable cars in the world. Phase 1 reaches Kongdoori at 3,050 metres. Phase 2 climbs to Apharwat Peak at 4,200 metres with views of glaciers, snowfields, and mountain ranges stretching in every direction. Gulmarg has the highest skiable terrain in India with some of the longest runs in Asia, making it the premier ski destination from December to March.',
@@ -69,7 +69,7 @@ const DEST_DATA = {
   pahalgam: {
     title: 'Pahalgam',
     tag: 'Valley of Shepherds - Lidder River',
-    img: 'https://images.unsplash.com/photo-1592425989956-3db7cd40ade2?w=1400&q=85&auto=format&fit=crop',
+    img: 'https://images.pexels.com/photos/36100089/pexels-photo-36100089.jpeg?w=1400',
     about: [
       'Pahalgam sits at 2,130 metres in the Anantnag district, about 90 km from Srinagar. The Lidder River runs cold and fast through a pine-covered valley here, and Bollywood directors have been filming on its banks since the 1950s. Every July it also serves as the base camp for the Amarnath Yatra pilgrimage.',
       'Baisaran, 5 km from town and reachable by pony, is a grassy meadow ringed by dense pine trees with snow peaks above — routinely called Mini Switzerland. Aru Valley, 11 km upstream, is a traditional village great for a half-day trip. Betaab Valley, 15 km out and named after a 1983 Bollywood film, offers crystal streams, pine forests, and wide meadows backed by snowy peaks.',
@@ -88,7 +88,7 @@ const DEST_DATA = {
   sonamarg: {
     title: 'Sonamarg',
     tag: 'Meadow of Gold - Gateway to Ladakh',
-    img: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1400&q=85&auto=format&fit=crop',
+    img: 'https://images.pexels.com/photos/35027239/pexels-photo-35027239.jpeg?w=1400',
     about: [
       'Sonamarg — Meadow of Gold — sits at 2,740 metres and is the last significant stop in the Kashmir Valley before the Zoji La pass. Beyond Zoji La the landscape transforms from lush green forest to the dramatic barren terrain of Ladakh. The drive from Srinagar along the Sindh River is itself one of the great drives in J&K.',
       'The main excursion is to the Thajiwas Glacier, about 4 km from the main stand. The path goes through forest before opening into a valley with the glacier at the far end. Snow is present even in July and August at glacier level — a big draw for families with children. Ponies are available for those who prefer not to walk the full distance.',
@@ -107,7 +107,7 @@ const DEST_DATA = {
   doodhpathri: {
     title: 'Doodhpathri',
     tag: 'Valley of Milk - 2,730m',
-    img: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1400&q=85&auto=format&fit=crop',
+    img: 'https://images.pexels.com/photos/7676028/pexels-photo-7676028.jpeg?w=1400',
     about: [
       'Doodhpathri — Valley of Milk — is named after the Shaliganga River that runs through it, milky white from glacial rock flour. The valley sits at 2,730 metres in the Budgam district, about 42 km from Srinagar. While Gulmarg, Pahalgam, and Sonamarg fill with tourists every season, Doodhpathri receives only a fraction of that traffic.',
       'The central draw is a wide, flat, grassy meadow surrounded by dense deodar and pine forest, with the river running along one edge and mountains in every direction. In May and June wildflowers cover the ground in purples, yellows, and whites. This is the kind of place where you can sit for an hour and hear nothing except wind, water, and birds.',
@@ -126,7 +126,7 @@ const DEST_DATA = {
   gurez: {
     title: 'Gurez Valley',
     tag: 'Hidden Gem - Near Line of Control',
-    img: 'https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?w=1400&q=85&auto=format&fit=crop',
+    img: 'https://images.pexels.com/photos/36120706/pexels-photo-36120706.jpeg?w=1400',
     about: [
       'Gurez Valley sits in the Bandipora district of northern J&K near the Line of Control. The Dards who live here speak Shina and follow a culture largely unchanged for centuries. Their carved wooden houses with lattice balconies line the Kishanganga River. The main town is Dawar. The road crosses the Razdan Pass at around 11,500 feet and takes 4 to 5 hours from Srinagar. A Protected Area Permit is required for non-local visitors.',
       'The most iconic image from Gurez is Habba Khatoon Peak — a pyramid-shaped mountain rising directly behind Dawar, named after a 16th-century Kashmiri poetess whose work is still sung throughout the Valley. The Kishanganga River runs the full length of Gurez before crossing into Pakistan and its banks are excellent for brown trout angling.',
