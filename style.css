@@ -80,6 +80,11 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;}
 .ml-sub-item:last-child{border-bottom:none;}
 .mob-foot{padding:1.2rem 1.6rem;border-top:1px solid rgba(200,151,58,.12);flex-shrink:0;}
 .mob-foot .btn-g{width:100%;justify-content:center;}
+.mob-back{background:none;border:none;color:rgba(244,239,230,.6);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;display:flex;align-items:center;gap:.5rem;padding:.3rem 0;transition:color .22s;}
+.mob-back:hover{color:var(--gold);}
+.mob-back i{font-size:.7rem;}
+.mob-back-btn{width:100%;justify-content:center;margin-top:.7rem;background:none;border:1px solid rgba(200,151,58,.25);color:rgba(244,239,230,.55);font-size:.6rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;padding:.75rem;cursor:pointer;display:flex;align-items:center;gap:.5rem;transition:all .25s;}
+.mob-back-btn:hover{border-color:var(--gold);color:var(--gold2);}
 #mob-overlay{display:none;}
 #mob-overlay.open{opacity:1;pointer-events:all;}
 /* PAGE SYSTEM */
