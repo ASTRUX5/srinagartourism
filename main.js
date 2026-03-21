@@ -94,8 +94,19 @@ var mobOpen = false;
 function toggleMob() {
   mobOpen = !mobOpen;
   document.getElementById('mob').classList.toggle('open', mobOpen);
+  var ov = document.getElementById('mob-overlay');
+  if (ov) ov.classList.toggle('open', mobOpen);
   document.getElementById('bi').className = mobOpen ? 'fas fa-xmark' : 'fas fa-bars';
   document.body.style.overflow = mobOpen ? 'hidden' : '';
+}
+function closeMob() {
+  mobOpen = false;
+  document.getElementById('mob').classList.remove('open');
+  var ov = document.getElementById('mob-overlay');
+  if (ov) ov.classList.remove('open');
+  var bi = document.getElementById('bi');
+  if (bi) bi.className = 'fas fa-bars';
+  document.body.style.overflow = '';
 }
 
 /* ===== COUNTER ANIMATION ===== */
@@ -294,3 +305,11 @@ function closeDestAbout() {
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') { closeDestAbout(); closeModal(); }
 });
+
+function toggleMobSub(el) {
+  var sub = el.nextElementSibling;
+  var arrow = el.querySelector('.ml-arrow');
+  var isOpen = sub.classList.contains('open');
+  sub.classList.toggle('open', !isOpen);
+  if (arrow) arrow.style.transform = isOpen ? '' : 'rotate(180deg)';
+}
