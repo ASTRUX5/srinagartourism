@@ -35,7 +35,7 @@ var IMAGES = {
   // ── KASHMIR PACKAGES LISTING PAGE — CARD IMAGES ─────────────────
   card_srinagar:           'https://images.pexels.com/photos/7743323/pexels-photo-7743323.jpeg',
   card_pahalgam:           'https://images.pexels.com/photos/4904290/pexels-photo-4904290.jpeg?w=1400',
-  card_sonamarg_gulmarg:   'https://images.unsplash.com/photo-1564499849-b5cf4a44a26f?w=600&q=80&auto=format&fit=crop',
+  card_sonamarg_gulmarg:   'https://images.pexels.com/photos/16526498/pexels-photo-16526498.jpeg?w=1400⁠',
   card_kashmir_special:    'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80&auto=format&fit=crop',
   card_kashmir_holiday:    'https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=600&q=80&auto=format&fit=crop',
   card_kashmir_pkg_tour:   'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80&auto=format&fit=crop',
