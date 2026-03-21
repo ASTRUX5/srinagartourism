@@ -65,7 +65,7 @@ var IMAGES = {
   hero_dest_gurez:         'https://images.pexels.com/photos/6787527/pexels-photo-6787527.jpeg?w=1400',
   hero_ladakh_listing:     'https://images.pexels.com/photos/1070386/pexels-photo-1070386.jpeg?w=1400',
   hero_kashmir_listing:    'https://images.pexels.com/photos/36097218/pexels-photo-36097218.jpeg?w=1400',
-  hero_vaishno:            'https://images.pexels.com/photos/5575815/pexels-photo-5575815.jpeg?w=1400'
+  hero_vaishno:            'https://images.pexels.com/photos/5575815/pexels-photo-5575815.jpeg?w=1400',
 
   // ── HOMEPAGE DESTINATION BENTO TILES ────────────────────────────
   // The 6 clickable destination cards on the homepage grid.
