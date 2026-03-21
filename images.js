@@ -57,15 +57,15 @@ var IMAGES = {
   home_card_ladakh:        'https://images.pexels.com/photos/2333611/pexels-photo-2333611.jpeg?w=1400⁠',
 
   // ── DESTINATION PAGE HEROES ──────────────────────────────────────
-  hero_dest_srinagar:      'https://images.unsplash.com/photo-1586375300773-8384e3e4916f?w=1400&q=85&auto=format&fit=crop',
+  hero_dest_srinagar:      'https://images.pexels.com/photos/2439787/pexels-photo-2439787.jpeg?w=1400⁠',
   hero_dest_gulmarg:       'https://images.pexels.com/photos/6262925/pexels-photo-6262925.jpeg?w=1400⁠',
   hero_dest_pahalgam:      'https://images.pexels.com/photos/12072458/pexels-photo-12072458.jpeg?w=1400',
-  hero_dest_sonamarg:      'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1400&q=85&auto=format&fit=crop',
-  hero_dest_doodhpathri:   'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1400&q=85&auto=format&fit=crop',
-  hero_dest_gurez:         'https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?w=1400&q=85&auto=format&fit=crop',
+  hero_dest_sonamarg:      'https://images.pexels.com/photos/9448756/pexels-photo-9448756.jpeg?w=1400⁠',
+  hero_dest_doodhpathri:   'https://images.pexels.com/photos/7676028/pexels-photo-7676028.jpeg?w=1400⁠',
+  hero_dest_gurez:         'https://images.pexels.com/photos/6787527/pexels-photo-6787527.jpeg?w=1400⁠',
   hero_ladakh_listing:     'https://images.pexels.com/photos/1070386/pexels-photo-1070386.jpeg?w=1400⁠',
-  hero_kashmir_listing:    'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1400&q=85&auto=format&fit=crop',
-  hero_vaishno:            'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=1400&q=85&auto=format&fit=crop'
+  hero_kashmir_listing:    'https://images.pexels.com/photos/36097218/pexels-photo-36097218.jpeg?w=1400⁠',
+  hero_vaishno:            'https://images.pexels.com/photos/5575815/pexels-photo-5575815.jpeg?w=1400⁠'
 
 };
 
