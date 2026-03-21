@@ -178,7 +178,7 @@
     <div class="pg">
 
       <!-- CARD 1: Leh Ladakh 5N/6D -->
-      <div class="pc pc-click" onclick="openPkg('leh')">
+      <div class="pc pc-click" onclick="window.location.href='leh-ladakh-tour.html'">
         <div class="pp"><img src="https://images.unsplash.com/photo-1593951316498-f9f3cde60dd0?w=600&q=80&auto=format&fit=crop" alt="Leh Ladakh tour Pangong Lake Khardungla pass" loading="lazy"><span class="pch">5N &middot; 6D</span></div>
         <div class="pb">
           <h3 class="pname">Leh Ladakh Tour</h3>
@@ -196,7 +196,7 @@
       </div>
 
       <!-- CARD 2: Enchanting Ladakh 6N/7D -->
-      <div class="pc pc-click" onclick="openPkg('enchanting')">
+      <div class="pc pc-click" onclick="window.location.href='enchanting-ladakh.html'">
         <div class="pp"><img src="https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=600&q=80&auto=format&fit=crop" alt="Enchanting Ladakh tour Turtuk village Nubra Valley" loading="lazy"><span class="pch">6N &middot; 7D</span></div>
         <div class="pb">
           <h3 class="pname">Enchanting Ladakh Tour</h3>
@@ -214,7 +214,7 @@
       </div>
 
       <!-- CARD 3: Kashmir with Ladakh 8N/9D -->
-      <div class="pc pc-click" onclick="openPkg('kashmir-ladakh')">
+      <div class="pc pc-click" onclick="window.location.href='kashmir-with-ladakh.html'">
         <div class="pp"><img src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=600&q=80&auto=format&fit=crop" alt="Kashmir with Ladakh tour Srinagar Gulmarg Kargil Pangong" loading="lazy"><span class="pch">8N &middot; 9D</span></div>
         <div class="pb">
           <h3 class="pname">Kashmir with Ladakh Tour</h3>
@@ -295,33 +295,6 @@
 </div></div>
 
 <a href="https://wa.me/919419055668" class="waf" target="_blank" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
-
-<!-- PACKAGE DETAIL MODAL -->
-<div id="pkg-modal">
-  <div class="pm-bg" onclick="closePkg()"></div>
-  <div class="pm-panel">
-    <div class="pm-head">
-      <div class="pm-head-top">
-        <div class="pm-title" id="pm-title">Package Name</div>
-        <button class="pm-close" onclick="closePkg()"><i class="fas fa-times"></i></button>
-      </div>
-      <div class="pm-meta" id="pm-meta"></div>
-    </div>
-    <div class="pm-tabs" id="pm-tabs">
-      <div class="pm-tab active" onclick="switchTab(0)">Itinerary</div>
-      <div class="pm-tab" onclick="switchTab(1)">Included &amp; Excluded</div>
-      <div class="pm-tab" onclick="switchTab(2)">Hotels</div>
-      <div class="pm-tab" onclick="switchTab(3)">Booking Info</div>
-    </div>
-    <div class="pm-body">
-      <div class="pm-pane active" id="pm-pane-0"></div>
-      <div class="pm-pane" id="pm-pane-1"></div>
-      <div class="pm-pane" id="pm-pane-2"></div>
-      <div class="pm-pane" id="pm-pane-3"></div>
-    </div>
-    <div class="pm-foot" id="pm-foot"></div>
-  </div>
-</div>
 
 <script src="data.js"></script>
 <script src="main.js"></script>
