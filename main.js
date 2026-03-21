@@ -233,16 +233,27 @@ function submitModal() {
   var name    = document.getElementById('m-name').value.trim();
   var phone   = document.getElementById('m-phone').value.trim();
   if (!name || !phone) { alert('Please enter your name and phone number.'); return; }
-  var tour    = document.getElementById('m-tour').value;
-  var dates   = document.getElementById('m-dates').value.trim();
-  var persons = document.getElementById('m-persons').value;
-  var msg     = document.getElementById('m-msg').value.trim();
-  var m = '*Tour Enquiry — Srinagar Tourism*%0A%0A*Name:* ' + name + '%0A*Phone:* ' + phone + '%0A';
-  if (tour)    m += '*Package:* ' + tour    + '%0A';
-  if (dates)   m += '*Dates:* '   + dates   + '%0A';
-  if (persons) m += '*Persons:* ' + persons + '%0A';
-  if (msg)     m += '%0A*Message:* ' + msg;
+  var tour    = document.getElementById('m-tour') ? document.getElementById('m-tour').value : '';
+  var dates   = document.getElementById('m-dates') ? document.getElementById('m-dates').value.trim() : '';
+  var persons = document.getElementById('m-persons') ? document.getElementById('m-persons').value : '';
+  var hotel   = document.getElementById('m-hotel') ? document.getElementById('m-hotel').value : '';
+  var type    = document.getElementById('m-type') ? document.getElementById('m-type').value : '';
+  var msg     = document.getElementById('m-msg') ? document.getElementById('m-msg').value.trim() : '';
+
+  var m = '*New Tour Enquiry — Srinagar Tourism*%0A';
+  m += '-----------------------------%0A';
+  m += '*Name:* ' + encodeURIComponent(name) + '%0A';
+  m += '*Phone:* ' + encodeURIComponent(phone) + '%0A';
+  if (tour)    m += '*Package:* ' + encodeURIComponent(tour) + '%0A';
+  if (dates)   m += '*Travel Dates:* ' + encodeURIComponent(dates) + '%0A';
+  if (persons) m += '*No. of Persons:* ' + encodeURIComponent(persons) + '%0A';
+  if (hotel)   m += '*Hotel Category:* ' + encodeURIComponent(hotel) + '%0A';
+  if (type)    m += '*Trip Type:* ' + encodeURIComponent(type) + '%0A';
+  if (msg)     m += '%0A*Special Requirements:*%0A' + encodeURIComponent(msg);
+  m += '%0A----------------------------%0A_Sent from srinagartourism.com_';
+
   window.open('https://wa.me/' + WA + '?text=' + m, '_blank');
+  closeModal();
 }
 
 /* ===== FAQ ACCORDION ===== */
