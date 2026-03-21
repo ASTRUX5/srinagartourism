@@ -59,7 +59,7 @@ var IMAGES = {
   // ── DESTINATION PAGE HEROES ──────────────────────────────────────
   hero_dest_srinagar:      'https://images.unsplash.com/photo-1586375300773-8384e3e4916f?w=1400&q=85&auto=format&fit=crop',
   hero_dest_gulmarg:       'https://images.unsplash.com/photo-1518560636955-e0b3aca3e6b9?w=1400&q=85&auto=format&fit=crop',
-  hero_dest_pahalgam:      'https://images.unsplash.com/photo-1592425989956-3db7cd40ade2?w=1400&q=85&auto=format&fit=crop',
+  hero_dest_pahalgam:      'https://images.pexels.com/photos/12072458/pexels-photo-12072458.jpeg?w=1400',
   hero_dest_sonamarg:      'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1400&q=85&auto=format&fit=crop',
   hero_dest_doodhpathri:   'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1400&q=85&auto=format&fit=crop',
   hero_dest_gurez:         'https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?w=1400&q=85&auto=format&fit=crop',
