@@ -52,7 +52,7 @@ var IMAGES = {
 
   // ── HOMEPAGE FEATURED CARDS ──────────────────────────────────────
   home_card_srinagar:      'https://images.pexels.com/photos/7743323/pexels-photo-7743323.jpeg',
-  home_card_kashmir_special:'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80&auto=format&fit=crop',
+  home_card_kashmir_special:'https://images.pexels.com/photos/9448812/pexels-photo-9448812.jpeg?w=1400⁠',
   home_card_honeymoon:     'https://images.unsplash.com/photo-1548013146-72479768bada?w=600&q=80&auto=format&fit=crop',
   home_card_ladakh:        'https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=600&q=80&auto=format&fit=crop',
 
