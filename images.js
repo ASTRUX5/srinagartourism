@@ -23,7 +23,7 @@ var IMAGES = {
   hero_kashmir_pkg_tour:   'https://images.unsplash.com/photo-1592425989956-3db7cd40ade2?w=1400&q=85&auto=format&fit=crop',
   hero_honeymoon:          'https://images.unsplash.com/photo-1548013146-72479768bada?w=1400&q=85&auto=format&fit=crop',
   hero_kashmir_valley:     'https://images.pexels.com/photos/2907578/pexels-photo-2907578.jpeg?w=1400⁠',
-  hero_jammu_kashmir:      'https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?w=1400&q=85&auto=format&fit=crop',
+  hero_jammu_kashmir:      'https://images.pexels.com/photos/6738438/pexels-photo-6738438.jpeg?w=1400⁠',
   hero_grand_kashmir:      'https://images.pexels.com/photos/848594/pexels-photo-848594.jpeg?w=1400⁠',
   hero_amarnath:           'https://images.pexels.com/photos/939714/pexels-photo-939714.jpeg?w=1400⁠',
 
