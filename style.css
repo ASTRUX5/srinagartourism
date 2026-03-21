@@ -347,3 +347,10 @@ footer{background:var(--ink);border-top:1px solid var(--b);padding:4rem 5vw 2.5r
 .dam-fact strong{color:var(--ivory);}
 .dam-btns{display:flex;gap:.7rem;flex-wrap:wrap;}
 @media(max-width:600px){.dam-facts-grid{grid-template-columns:1fr;}.dam-hero{height:165px;}.dam-hero-title{font-size:1.55rem;}}
+
+.btn-enq{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:.35rem;font-size:.58rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:.55rem .5rem;background:rgba(200,151,58,.13);border:1px solid rgba(200,151,58,.35);color:var(--gold2);cursor:pointer;transition:all .25s;white-space:nowrap;}
+.btn-enq:hover{background:rgba(200,151,58,.22);border-color:var(--gold);color:var(--gold);}
+.pbts{display:flex;gap:.4rem;}
+.pbts .btn-wa,.pbts .btn-call{flex:0 0 auto;}
+.pbts .btn-wa{flex:1;}
+.btn-wa-sm{flex:0 0 auto !important;min-width:0 !important;padding:.55rem .65rem !important;}
