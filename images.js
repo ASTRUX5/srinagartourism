@@ -76,6 +76,18 @@ var IMAGES = {
   tile_doodhpathri:  'https://images.pexels.com/photos/7676028/pexels-photo-7676028.jpeg?w=700',
   tile_gurez:        'https://images.pexels.com/photos/36120706/pexels-photo-36120706.jpeg?w=700'
 
+  // ── OTHER PAGE HEROES ────────────────────────────────────────────
+  hero_about:          'https://images.pexels.com/photos/7743328/pexels-photo-7743328.jpeg?w=1400',
+  hero_car_rentals:    'https://images.pexels.com/photos/9448812/pexels-photo-9448812.jpeg?w=1400',
+
+  // ── ABOUT SECTION IMAGE ─────────────────────────────────────────
+  about_dal_lake: 'https://images.pexels.com/photos/6189860/pexels-photo-6189860.jpeg?w=900',
+
+  // ── VAISHNO DEVI CARD IMAGES ─────────────────────────────────────
+  card_vaishno_mata:   'https://images.pexels.com/photos/5575815/pexels-photo-5575815.jpeg?w=600',
+  card_vaishno_katra:  'https://images.pexels.com/photos/939714/pexels-photo-939714.jpeg?w=600',
+  card_vaishno_kashmir:'https://images.pexels.com/photos/7743323/pexels-photo-7743323.jpeg?w=600',
+
 };
 
 // ── AUTO-LOADER ──────────────────────────────────────────────────────
