@@ -26,6 +26,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
+<script src="images.js"></script>
 </head>
 <body>
 <nav id="nav">
@@ -49,23 +50,37 @@
   <button class="nb-burger" onclick="toggleMob()"><i class="fas fa-bars" id="bi"></i></button>
 </nav>
 <div id="mob">
-  <div class="ml" onclick="window.location.href='index.html'">Home</div>
-  <div class="ml" onclick="window.location.href='about.html'">About</div>
-  <div class="ml" onclick="window.location.href='kashmir-packages.html'">Kashmir Packages</div>
-  <div class="ml" onclick="window.location.href='ladakh-packages.html'">Ladakh Packages</div>
-  <div class="ml" onclick="window.location.href='vaishno-devi.html'">Vaishno Devi</div>
-  <div class="ml ml-sm" onclick="window.location.href='srinagar.html'">&#8594; Srinagar</div>
-  <div class="ml ml-sm" onclick="window.location.href='gulmarg.html'">&#8594; Gulmarg</div>
-  <div class="ml ml-sm" onclick="window.location.href='pahalgam.html'">&#8594; Pahalgam</div>
-  <div class="ml ml-sm" onclick="window.location.href='sonamarg.html'">&#8594; Sonamarg</div>
-  <div class="ml ml-sm" onclick="window.location.href='doodhpathri.html'">&#8594; Doodhpathri</div>
-  <div class="ml ml-sm" onclick="window.location.href='gurez-valley.html'">&#8594; Gurez Valley</div>
-  <div class="ml" onclick="window.location.href='car-rentals.html'">Car Rentals</div>
-  <div class="ml" onclick="window.location.href='contact.html'">Contact</div>
-  <button class="btn-g" style="margin-top:.5rem" onclick="openModal('')"><i class="fas fa-paper-plane"></i>&nbsp;Enquire Now</button>
+  <div class="mob-head">
+    <button class="mob-back" onclick="closeMob()"><i class="fas fa-arrow-left"></i>&nbsp;Back</button>
+    <div class="mob-logo">Srinagar<span>.</span>Tourism</div>
+    <button class="mob-close" onclick="closeMob()"><i class="fas fa-times"></i></button>
+  </div>
+  <div class="mob-links">
+    <div class="ml" onclick="closeMob();window.location.href='index.html'">Home</div>
+    <div class="ml" onclick="closeMob();window.location.href='about.html'">About</div>
+    <div class="ml ml-toggle" onclick="toggleMobSub(this)">
+      <span>Kashmir Packages</span><i class="fas fa-chevron-down ml-arrow"></i>
+    </div>
+    <div class="ml-sub">
+      <div class="ml-sub-item" onclick="closeMob();window.location.href='kashmir-packages.html'"><i class="fas fa-th-large"></i>All Packages</div>
+      <div class="ml-sub-item" onclick="closeMob();window.location.href='srinagar.html'"><i class="fas fa-water"></i>Srinagar</div>
+      <div class="ml-sub-item" onclick="closeMob();window.location.href='gulmarg.html'"><i class="fas fa-mountain"></i>Gulmarg</div>
+      <div class="ml-sub-item" onclick="closeMob();window.location.href='pahalgam.html'"><i class="fas fa-tree"></i>Pahalgam</div>
+      <div class="ml-sub-item" onclick="closeMob();window.location.href='sonamarg.html'"><i class="fas fa-snowflake"></i>Sonamarg</div>
+      <div class="ml-sub-item" onclick="closeMob();window.location.href='doodhpathri.html'"><i class="fas fa-leaf"></i>Doodhpathri</div>
+      <div class="ml-sub-item" onclick="closeMob();window.location.href='gurez-valley.html'"><i class="fas fa-compass"></i>Gurez Valley</div>
+    </div>
+    <div class="ml" onclick="closeMob();window.location.href='ladakh-packages.html'">Ladakh Packages</div>
+    <div class="ml" onclick="closeMob();window.location.href='vaishno-devi.html'">Vaishno Devi</div>
+    <div class="ml" onclick="closeMob();window.location.href='car-rentals.html'">Car Rentals</div>
+    <div class="ml" onclick="closeMob();window.location.href='contact.html'">Contact</div>
+  </div>
+  <div class="mob-foot">
+    <button class="btn-g" onclick="closeMob();openModal('')"><i class="fas fa-paper-plane"></i>&nbsp;Enquire Now</button>
+  </div>
 </div>
 <div class="dp-hero" style="padding-top:80px">
-  <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1400&q=85&auto=format&fit=crop" alt="Doodhpathri Valley of Milk meadow wildflowers Kashmir unspoiled" loading="eager">
+  <img data-img="hero_dest_doodhpathri" alt="Doodhpathri Valley of Milk meadow wildflowers Kashmir unspoiled" loading="eager">
   <div class="dp-hero-ov"></div>
   <div class="dp-hero-con"><span class="tag">Valley of Milk &middot; 2,730m</span><h1 style="font-family:var(--fd);font-size:clamp(2.2rem,6vw,4rem);font-weight:700;color:var(--ivory);">Doodhpathri</h1></div>
 </div>
@@ -97,11 +112,7 @@
     <a href="https://wa.me/919419055668" class="sb" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
   </div>
   <span class="payl">Secure Payments Accepted</span>
-  <div class="payr">
-    <div class="payc pc-r"><span style="font-weight:900">Ru</span><span style="color:#FF6600">Pay</span></div>
-    <div class="payc pc-v">VISA</div>
-    <div class="payc pc-m"><div class="mc1"></div><div class="mc2"></div></div>
-    <div class="payc pc-u">UPI</div>
+  <div class="payr"><img src="rupay.png" alt="RuPay" class="pay-img"><img src="visa.png" alt="Visa" class="pay-img"><img src="mastercard.png" alt="Mastercard" class="pay-img"><img src="upi.png" alt="UPI" class="pay-img"><img src="paytm.png" alt="Paytm" class="pay-img"><img src="gpay.png" alt="Google Pay" class="pay-img"></div><div class="mc2"></div></div>
   </div>
 </div>
 <div class="fc"><h4>Quick Links</h4><ul>
@@ -127,20 +138,35 @@
 <div class="fb2"><p>&copy; 2025 Srinagar Tourism (Tour &amp; Travels). All rights reserved.</p><p>Crafted with &#9825; for the Paradise on Earth</p></div>
 </footer>
 <div id="modal" onclick="closeModalBg(event)"><div class="mbox">
-  <div class="mhd"><h3>Quick <span>Enquiry</span></h3><button class="bx" onclick="closeModal()"><i class="fas fa-xmark"></i></button></div>
+  <div class="mhd"><h3>Package <span>Enquiry</span></h3><button class="bx" onclick="closeModal()"><i class="fas fa-xmark"></i></button></div>
   <div class="fr2">
-    <div class="fg"><label>Name *</label><input type="text" id="m-name" placeholder="Your name"></div>
-    <div class="fg"><label>Phone *</label><input type="tel" id="m-phone" placeholder="+91 00000 00000"></div>
+    <div class="fg"><label>Full Name *</label><input type="text" id="m-name" placeholder="Your full name"></div>
+    <div class="fg"><label>Phone / WhatsApp *</label><input type="tel" id="m-phone" placeholder="+91 00000 00000"></div>
   </div>
   <div class="fg"><label>Package</label>
-    <select id="m-tour"><option value="">Select a package&#8230;</option><option>Srinagar Tour (3N/4D)</option><option>Pahalgam Tour (3N/4D)</option><option>Sonamarg &amp; Gulmarg (3N/4D)</option><option>Kashmir Special (4N/5D)</option><option>Kashmir Holiday Tour (4N/5D)</option><option>Kashmir Package Tour (5N/6D)</option><option>Honeymoon Package (5N/6D)</option><option>Kashmir Valley Tour (6N/7D)</option><option>Grand Kashmir Tour (7N/8D)</option><option>Amarnath Yatra Package</option><option>Leh Ladakh Tour (5N/6D)</option><option>Kashmir with Ladakh (8N/9D)</option><option>Mata Vaishno Devi Tour (2N/3D)</option><option>Gurez Valley Tour</option><option>Car Rental</option><option>Custom Package</option></select>
+    <select id="m-tour"><option value="">Select a package&#8230;</option>
+      <option>Srinagar Tour (3N/4D)</option><option>Pahalgam Tour (3N/4D)</option>
+      <option>Sonamarg &amp; Gulmarg Tour (3N/4D)</option><option>Kashmir Special (4N/5D)</option>
+      <option>Kashmir Holiday Tour (4N/5D)</option><option>Kashmir Package Tour (5N/6D)</option>
+      <option>Kashmir Honeymoon Package (5N/6D)</option><option>Kashmir Valley Tour (6N/7D)</option>
+      <option>Jammu &amp; Kashmir Tour (6N/7D)</option><option>Grand Kashmir Tour (7N/8D)</option>
+      <option>Amarnath Yatra Package</option><option>Leh Ladakh Tour (5N/6D)</option>
+      <option>Enchanting Ladakh Tour (6N/7D)</option><option>Kashmir with Ladakh (8N/9D)</option>
+      <option>Mata Vaishno Devi Tour (2N/3D)</option><option>Vaishno Devi with Kashmir (8N/9D)</option>
+      <option>Gurez Valley Tour</option><option>Car Rental</option><option>Custom Package</option>
+    </select>
   </div>
   <div class="fr2">
     <div class="fg"><label>Travel Dates</label><input type="text" id="m-dates" placeholder="e.g. 10&#8211;17 June 2025"></div>
-    <div class="fg"><label>Persons</label><select id="m-persons"><option value="">Select&#8230;</option><option>1 Person</option><option>2 Persons</option><option>3&#8211;5 Persons</option><option>6&#8211;10 Persons</option><option>10+</option></select></div>
+    <div class="fg"><label>No. of Persons</label><select id="m-persons"><option value="">Select&#8230;</option><option>1 Person</option><option>2 Persons</option><option>3&#8211;5 Persons</option><option>6&#8211;10 Persons</option><option>10+</option></select></div>
   </div>
-  <div class="fg"><label>Message</label><textarea id="m-msg" placeholder="Any preferences&#8230;" style="min-height:72px"></textarea></div>
-  <button class="btn-sub" onclick="submitModal()"><i class="fab fa-whatsapp" style="font-size:.9rem;margin-right:.4rem"></i>Send via WhatsApp</button>
+  <div class="fr2">
+    <div class="fg"><label>Hotel Category</label><select id="m-hotel"><option value="">Any&#8230;</option><option>3 Star</option><option>4 Star</option><option>5 Star / Luxury</option></select></div>
+    <div class="fg"><label>Trip Type</label><select id="m-type"><option value="">Select&#8230;</option><option>Family</option><option>Couple / Honeymoon</option><option>Solo</option><option>Friends Group</option><option>Corporate</option><option>Pilgrimage</option></select></div>
+  </div>
+  <div class="fg"><label>Special Requirements</label><textarea id="m-msg" placeholder="Any preferences, dietary needs, disabilities, special occasions&#8230;" style="min-height:68px"></textarea></div>
+  <button class="btn-sub" onclick="submitModal()"><i class="fab fa-whatsapp"></i>&nbsp;Send Enquiry via WhatsApp</button>
+  <p style="font-size:.62rem;color:var(--sage);text-align:center;margin-top:.6rem;line-height:1.5">Opens WhatsApp with your details. We reply within 2 hours.</p>
 </div></div>
 <a href="https://wa.me/919419055668" class="waf" target="_blank" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
 <script src="data.js"></script>
