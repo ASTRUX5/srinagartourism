@@ -157,7 +157,9 @@ function selectVehicle(type, el) {
 (function() {
   var track = document.getElementById('rev-track');
   if (!track) return;
-  var all = REVIEWS.concat(REVIEWS);
+
+  // Build cards — duplicated for infinite feel
+  var all = REVIEWS.concat(REVIEWS).concat(REVIEWS);
   all.forEach(function(r) {
     var div = document.createElement('div');
     div.className = 'rc';
@@ -170,6 +172,68 @@ function selectVehicle(type, el) {
       '</div>';
     track.appendChild(div);
   });
+
+  var co = track.parentElement;
+  var offset = 0;
+  var maxOffset = 0;
+  var autoSpeed = 0.6; // px per frame
+  var isPaused = false;
+  var raf;
+
+  function getMax() {
+    return track.scrollWidth / 3 * 2; // two thirds = one full set
+  }
+
+  // Auto scroll
+  function autoScroll() {
+    if (!isPaused) {
+      offset += autoSpeed;
+      if (offset >= getMax()) offset = 0;
+      track.style.transform = 'translateX(-' + offset + 'px)';
+    }
+    raf = requestAnimationFrame(autoScroll);
+  }
+  raf = requestAnimationFrame(autoScroll);
+
+  // Mouse drag
+  var dragStart = 0, dragOffset = 0, dragging = false;
+
+  co.addEventListener('mousedown', function(e) {
+    dragging = true; isPaused = true;
+    dragStart = e.clientX; dragOffset = offset;
+    co.classList.add('dragging');
+    e.preventDefault();
+  });
+  document.addEventListener('mousemove', function(e) {
+    if (!dragging) return;
+    var delta = dragStart - e.clientX;
+    offset = Math.max(0, dragOffset + delta);
+    if (offset >= getMax()) offset = 0;
+    track.style.transform = 'translateX(-' + offset + 'px)';
+  });
+  document.addEventListener('mouseup', function() {
+    if (!dragging) return;
+    dragging = false; isPaused = false;
+    co.classList.remove('dragging');
+  });
+
+  // Touch drag
+  var touchStart = 0, touchOffset = 0;
+  co.addEventListener('touchstart', function(e) {
+    isPaused = true;
+    touchStart = e.touches[0].clientX;
+    touchOffset = offset;
+  }, {passive: true});
+  co.addEventListener('touchmove', function(e) {
+    var delta = touchStart - e.touches[0].clientX;
+    offset = Math.max(0, touchOffset + delta);
+    if (offset >= getMax()) offset = 0;
+    track.style.transform = 'translateX(-' + offset + 'px)';
+  }, {passive: true});
+  co.addEventListener('touchend', function() {
+    isPaused = false;
+  });
+
 })();
 
 /* ===== WHATSAPP & CALL ===== */
